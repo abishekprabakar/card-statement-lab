@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "card-statement-lab"
+version = "0.1.0"
+description = "Credit card statement engine: ADB interest, grace periods, CARD Act payment allocation, deferred interest and Reg Z minimum-payment disclosures"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[tool.setuptools]
+packages = ["cardlab"]
